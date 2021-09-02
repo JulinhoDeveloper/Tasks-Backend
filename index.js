@@ -15,6 +15,9 @@ app.use(cors());
 // Habilitar express.json
 app.use( express.json({ extended: true }));
 
+// Importar rotas
+app.use('/api/usuarios', require('./routes/usuarios'));
+
 // porta 
 const port = process.env.PORT || 4000;
 
