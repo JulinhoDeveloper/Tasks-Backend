@@ -1,0 +1,4 @@
+npm i express mongoose dotenv cors
+npm i nodemon
+npm i bcrypt
+cors
